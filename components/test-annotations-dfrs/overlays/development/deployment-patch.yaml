@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-dfrs
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-edmn-tenant/build-suite-test-application-shav/test-annotations-dfrs@sha256:8596082117f138eaec34efff55787d6239a55803b7a6690deb91358f2789a6cf
+        name: my-nginx
+        resources: {}
+status: {}
