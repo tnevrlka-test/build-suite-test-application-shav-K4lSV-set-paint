@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-dfrs
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-edmn-tenant/build-suite-test-application-shav/test-annotations-dfrs@sha256:8596082117f138eaec34efff55787d6239a55803b7a6690deb91358f2789a6cf
         name: my-nginx
         ports:
         - containerPort: 8080
